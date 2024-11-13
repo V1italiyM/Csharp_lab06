@@ -53,7 +53,7 @@ API key - ключ, полученный при регистрации на са
     {
         static void Main(string[] args)
         {
-            string apiKey = "b30921ec23d5c88c96c22616fb2f3933"; // Ключ API для доступа к OpenWeatherMap API
+            string apiKey = " "; // Ключ API для доступа к OpenWeatherMap API
             string URL = $"https://api.openweathermap.org/data/2.5/weather"; // URL для получения данных о погоде
     
             Weather[] weathers = new Weather[50]; // Массив для хранения данных о погоде для 50 случайных мест
